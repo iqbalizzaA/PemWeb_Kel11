@@ -14,7 +14,7 @@ include "auth_user.php";
 		include "bundle_css.php";
 	?>
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include 'content_header.php';
@@ -51,10 +51,10 @@ include "auth_user.php";
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            Mahasiswa
+            Siswa
           </h1>
           <ol class="breadcrumb">
-            <li><i class="fa fa-users"></i> Mahasiswa</li>
+            <li><i class="fa fa-users"></i>Siswa</li>
           </ol>
         </section>
 
@@ -86,26 +86,26 @@ include "auth_user.php";
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Tambah Mahasiswa</h4>
+						<h4 class="modal-title">Tambah Siswa</h4>
 					</div>
 					<div class="modal-body">
 						<form action="mahasiswa_add.php" name="modal_popup" enctype="multipart/form-data" method="post">
 							<div class="form-group">
-								<label>NIM</label>
+								<label>NIS</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-id-card"></i>
 										</div>
-										<input name="NIM" type="text" class="form-control" placeholder="Nomor Induk Mahasiswa"/>
+										<input name="NIM" type="text" class="form-control" placeholder="Nomor Induk Siswa"/>
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Mahasiswa</label>
+								<label>Siswa</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-user"></i>
 										</div>
-										<input name="Nama_Mahasiswa" type="text" class="form-control" placeholder="Nama Mahasiswa"/>
+										<input name="Nama_Mahasiswa" type="text" class="form-control" placeholder="Nama Siswa"/>
 									</div>
 							</div>
 							<div class="form-group">

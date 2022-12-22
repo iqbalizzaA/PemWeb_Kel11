@@ -25,7 +25,7 @@ include "auth_user.php";
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="../aset/dist/css/skins/_all-skins.min.css">
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include "content_header.php";  

@@ -23,7 +23,7 @@ $daftarhari[] = "Minggu";
 		include "bundle_css.php";
 	?>
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include 'content_header.php';
@@ -120,7 +120,7 @@ $daftarhari[] = "Minggu";
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Matakuliah</label>
+								<label>Mata Pelajaran</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>

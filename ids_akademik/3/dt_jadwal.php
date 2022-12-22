@@ -1,7 +1,7 @@
 				<thead>
 					<tr>
-						<th>Matakuliah</th>
-						<th>Dosen</th>
+						<th>Mata Pelajaran</th>
+						<th>Guru</th>
 						<th>Ruangan</th>
 						<th>Jurusan</th>
 						<th>Hari</th>

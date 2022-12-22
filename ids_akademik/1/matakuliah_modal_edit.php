@@ -30,12 +30,12 @@ while($matakuliah = mysqli_fetch_array($querymatakuliah)){
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Edit Matakuliah</h4>
+						<h4 class="modal-title">Edit Mata Pelajaran</h4>
 					</div>
 					<div class="modal-body">
 						<form action="matakuliah_edit.php" name="modal_popup" enctype="multipart/form-data" method="post">
 							<div class="form-group">
-								<label>Kode Matakuliah</label>
+								<label>Kode Mata Pelajaran</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>
@@ -44,7 +44,7 @@ while($matakuliah = mysqli_fetch_array($querymatakuliah)){
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Matakuliah</label>
+								<label>Mata Pelajaran</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>
@@ -53,7 +53,7 @@ while($matakuliah = mysqli_fetch_array($querymatakuliah)){
 									</div>
 							</div>
 							<div class="form-group">
-								<label>SKS</label>
+								<label>Waktu</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>

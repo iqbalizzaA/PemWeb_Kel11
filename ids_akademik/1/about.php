@@ -14,7 +14,7 @@ include "auth_user.php";
 		include "bundle_css.php";
 	?>
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include 'content_header.php';

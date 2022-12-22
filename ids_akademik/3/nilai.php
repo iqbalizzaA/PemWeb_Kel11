@@ -20,7 +20,7 @@ $daftarnilai[] = "D";
 		include "bundle_css.php";
 	?>
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include 'content_header.php';
@@ -89,7 +89,7 @@ $daftarnilai[] = "D";
 					<div class="modal-body">
 						<form action="nilai_add.php" name="modal_popup" enctype="multipart/form-data" method="post">
 							<div class="form-group">
-								<label>Mahasiswa</label>
+								<label>Siswa</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-users"></i>
@@ -109,7 +109,7 @@ $daftarnilai[] = "D";
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Matakuliah</label>
+								<label>Mata Pelajaran</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>

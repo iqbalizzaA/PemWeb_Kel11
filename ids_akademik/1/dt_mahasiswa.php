@@ -1,7 +1,7 @@
 				<thead>
 					<tr>
-						<th>NIM</th>
-						<th>Mahasiswa</th>
+						<th>NIS</th>
+						<th>Siswa</th>
 						<th>Tanggal Lahir</th>
 						<th>Jenis Kelamin</th>
 						<th>Telpon</th>

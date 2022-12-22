@@ -20,7 +20,7 @@ $daftarnilai[] = "D";
 		include "bundle_css.php";
 	?>
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include 'content_header.php';
@@ -39,7 +39,7 @@ $daftarnilai[] = "D";
 				<li class="header"><h4><b><center>Menu Panel</center></b></h4></li>
 			        <li><a href="index.php"><i class="fa fa-home"></i><span>Dashboard</span></a></li>
 					<li><a href="jadwal.php"><i class="fa fa-calendar"></i><span>Jadwal</span></a></li>
-					<li class="active"><a href="nilai.php"><i class="fa fa-book"></i><span>Nilai Mahasiswa</span></a></li>
+					<li class="active"><a href="nilai.php"><i class="fa fa-book"></i><span>Nilai Siswa</span></a></li>
 					<li><a href="about.php"><i class="fa fa-info-circle"></i><span>Tentang Aplikasi</span></a></li>
           </ul>
         </section>
@@ -91,7 +91,7 @@ $daftarnilai[] = "D";
 					<div class="modal-body">
 						<form action="nilai_add.php" name="modal_popup" enctype="multipart/form-data" method="post">
 							<div class="form-group">
-								<label>Mahasiswa</label>
+								<label>Siswa</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-users"></i>
@@ -111,7 +111,7 @@ $daftarnilai[] = "D";
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Matakuliah</label>
+								<label>Mata pelajaran</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>

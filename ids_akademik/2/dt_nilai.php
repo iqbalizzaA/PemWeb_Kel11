@@ -1,7 +1,7 @@
 				<thead>
 					<tr>
-						<th>Mahasiswa</th>
-						<th>Matakuliah</th>
+						<th>Siswa</th>
+						<th>Mata Pelajaran</th>
 						<th>Nilai</th>
 						<th>Action</th>
 					</tr>

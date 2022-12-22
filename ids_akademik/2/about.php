@@ -14,7 +14,7 @@ include "auth_user.php";
 		include "bundle_css.php";
 	?>
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include 'content_header.php';
@@ -33,7 +33,7 @@ include "auth_user.php";
 				<li class="header"><h4><b><center>Menu Panel</center></b></h4></li>
 					<li><a href="index.php"><i class="fa fa-home"></i><span>Dashboard</span></a></li>
 					<li><a href="jadwal.php"><i class="fa fa-calendar"></i><span>Jadwal</span></a></li>
-					<li><a href="nilai.php"><i class="fa fa-book"></i><span>Nilai Mahasiswa</span></a></li>
+					<li><a href="nilai.php"><i class="fa fa-book"></i><span>Nilai Siswa</span></a></li>
 					<li class="active"><a href="about.php"><i class="fa fa-info-circle"></i><span>Tentang Aplikasi</span></a></li>
           </ul>
         </section>

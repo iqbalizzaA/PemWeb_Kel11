@@ -1,8 +1,8 @@
 				<thead>
 					<tr>
-						<th>Kode Matakuliah</th>
-						<th>Nama Matakuliah</th>
-						<th>SKS</th>
+						<th>Kode Mata Pelajaran</th>
+						<th>Nama Mata Pelajaran</th>
+						<th>Waktu</th>
 						<th>Action</th>
 					</tr>
 				</thead>

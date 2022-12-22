@@ -30,7 +30,7 @@ while($mhs = mysqli_fetch_array($querymhs)){
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Edit Mahasiswa</h4>
+						<h4 class="modal-title">Edit Siswa</h4>
 					</div>
 					<div class="modal-body">
 						<form action="mahasiswa_edit.php" name="modal_popup" enctype="multipart/form-data" method="post">
@@ -44,7 +44,7 @@ while($mhs = mysqli_fetch_array($querymhs)){
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Mahasiswa</label>
+								<label>Siswa</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-user"></i>

@@ -1,7 +1,7 @@
 				<thead>
 					<tr>
 						<th>NIP</th>
-						<th>Dosen</th>
+						<th>Guru</th>
 						<th>Tanggal Lahir</th>
 						<th>Jenis Kelamin</th>
 						<th>Telpon</th>

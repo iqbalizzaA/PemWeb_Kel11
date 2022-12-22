@@ -41,7 +41,7 @@ while($nilai = mysqli_fetch_array($querynilai)){
 						<form action="nilai_edit.php" name="modal_popup" enctype="multipart/form-data" method="post">
 							<input type="hidden" name="Id_Nilai" value="<?php echo $nilai["Id_Nilai"]; ?>">
 							<div class="form-group">
-								<label>Mahasiswa</label>
+								<label>Siswa</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-users"></i>
@@ -71,7 +71,7 @@ while($nilai = mysqli_fetch_array($querynilai)){
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Matakuliah</label>
+								<label>Mata Pelajaran</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>

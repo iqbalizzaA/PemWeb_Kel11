@@ -25,7 +25,7 @@
             <li class="user-header">
               <!--<h3><p>Akademik</p></h3>-->
     <p style="text-transform:capitalize;">Hi <?php echo "".$_SESSION["Username"]."" ?>, </p>
-    <p>Welcome To IDS Akademik</p>
+    <p>Welcome To Kelompok 11</p>
             </li>
             <!-- Menu Footer-->
             <li class="user-footer">

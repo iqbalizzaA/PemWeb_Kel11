@@ -14,7 +14,7 @@ include "auth_user.php";
 		include "bundle_css.php";
 	?>
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include 'content_header.php';
@@ -51,10 +51,10 @@ include "auth_user.php";
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            Dosen
+            Guru
           </h1>
           <ol class="breadcrumb">
-            <li><i class="fa fa-user"></i> Dosen</li>
+            <li><i class="fa fa-user"></i> Guru</li>
           </ol>
         </section>
 
@@ -86,7 +86,7 @@ include "auth_user.php";
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Tambah Dosen</h4>
+						<h4 class="modal-title">Tambah Guru</h4>
 					</div>
 					<div class="modal-body">
 						<form action="dosen_add.php" name="modal_popup" enctype="multipart/form-data" method="post">
@@ -100,12 +100,12 @@ include "auth_user.php";
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Dosen</label>
+								<label>Guru</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-user"></i>
 										</div>
-										<input name="Nama_Dosen" type="text" class="form-control" placeholder="Nama Dosen"/>
+										<input name="Nama_Dosen" type="text" class="form-control" placeholder="Nama Guru"/>
 									</div>
 							</div>
 							<div class="form-group">

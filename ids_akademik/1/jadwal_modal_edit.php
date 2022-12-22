@@ -88,7 +88,7 @@ while($jadwal = mysqli_fetch_array($queryjadwal)){
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Matakuliah</label>
+								<label>Mata Pelajaran</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>

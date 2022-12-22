@@ -15,7 +15,7 @@ include "auth_user.php";
 		include "bundle_css.php";
 	?>
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include 'content_header.php';
@@ -68,8 +68,8 @@ include "auth_user.php";
 
                 </div><!-- /.box-header -->
                 <div class="box-body">
-				<a href="#"><button class="btn btn-success" type="button" data-target="#ModalAddDosen" data-toggle="modal"><i class="fa fa-plus"></i> Add Dosen</button></a>
-				<a href="#"><button class="btn btn-success" type="button" data-target="#ModalAddMahasiswa" data-toggle="modal"><i class="fa fa-plus"></i> Add Mahasiswa</button></a>
+				<a href="#"><button class="btn btn-success" type="button" data-target="#ModalAddDosen" data-toggle="modal"><i class="fa fa-plus"></i> Add Guru</button></a>
+				<a href="#"><button class="btn btn-success" type="button" data-target="#ModalAddMahasiswa" data-toggle="modal"><i class="fa fa-plus"></i> Add Siswa</button></a>
                   <br></br>
 				  <table id="data" class="table table-bordered table-striped table-scalable">
 						<?php
@@ -88,9 +88,9 @@ include "auth_user.php";
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Tambah User Dosen</h4>
+						<h4 class="modal-title">Tambah User Guru</h4>
 						<br />
-						<h6 class="modal-title">Username Dan Password = NIP Dosen</h6>
+						<h6 class="modal-title">Username Dan Password = NIP Guru</h6>
 					</div>
 					<div class="modal-body">
 						<form action="user_add_dosen.php" name="modal_popup" enctype="multipart/form-data" method="post">
@@ -101,12 +101,12 @@ include "auth_user.php";
 											<i class="fa fa-user"></i>
 										</div>
 										<select name="Id_Usergroup_User" class="form-control">
-											<option value=2 selected>Dosen</option>
+											<option value=2 selected>Guru</option>
 										</select>
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Dosen</label>
+								<label>Guru</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-user"></i>
@@ -146,9 +146,9 @@ include "auth_user.php";
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Tambah User Mahasiswa</h4>
+						<h4 class="modal-title">Tambah User Siswa</h4>
 						<br />
-						<h6 class="modal-title">Username Dan Password = NIM Mahasiswa</h6>
+						<h6 class="modal-title">Username Dan Password = NIM Siswa</h6>
 					</div>
 					<div class="modal-body">
 						<form action="user_add_mahasiswa.php" name="modal_popup" enctype="multipart/form-data" method="post">
@@ -159,12 +159,12 @@ include "auth_user.php";
 											<i class="fa fa-user"></i>
 										</div>
 										<select name="Id_Usergroup_User" class="form-control">
-											<option value=3 selected>Mahasiswa</option>
+											<option value=3 selected>Siswa</option>
 										</select>
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Mahasiswa</label>
+								<label>Siswa</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-user"></i>

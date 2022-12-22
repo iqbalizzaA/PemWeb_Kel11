@@ -14,7 +14,7 @@ include "auth_user.php";
 		include "bundle_css.php";
 	?>
   </head>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-yellow sidebar-mini">
     <div class="wrapper">
       <?php
         include 'content_header.php';
@@ -51,10 +51,10 @@ include "auth_user.php";
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            Matakuliah
+            Mata Palajaran
           </h1>
           <ol class="breadcrumb">
-            <li><i class="fa fa-book"></i> Matakuliah</li>
+            <li><i class="fa fa-book"></i> Mata Pelajaran</li>
           </ol>
         </section>
 
@@ -86,12 +86,12 @@ include "auth_user.php";
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Tambah Matakuliah</h4>
+						<h4 class="modal-title">Tambah Mata Pelajaran</h4>
 					</div>
 					<div class="modal-body">
 						<form action="matakuliah_add.php" name="modal_popup" enctype="multipart/form-data" method="post">
 							<div class="form-group">
-								<label>Kode Matakuliah</label>
+								<label>Kode Mata Pelajaran</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>
@@ -100,7 +100,7 @@ include "auth_user.php";
 									</div>
 							</div>
 							<div class="form-group">
-								<label>Matakuliah</label>
+								<label>Mata Pelajaran</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>
@@ -109,7 +109,7 @@ include "auth_user.php";
 									</div>
 							</div>
 							<div class="form-group">
-								<label>SKS</label>
+								<label>Waktu</label>
 									<div class="input-group">
 										<div class="input-group-addon">
 											<i class="fa fa-book"></i>
